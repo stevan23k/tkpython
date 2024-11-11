@@ -1,0 +1,57 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "127.0.0.1",
+            "port": 3307,
+            "driver": "MySQL",
+            "name": "uni",
+            "database": "libreria",
+            "username": "root"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3307,
+            "driver": "MySQL",
+            "name": "reservas",
+            "username": "root",
+            "database": "reservas"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3307,
+            "driver": "MySQL",
+            "name": "resrevas",
+            "database": "resrevas",
+            "username": "root"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "previewLimit": 50,
+            "server": "bilu4c9xkyxamq80ka98-mysql.services.clever-cloud.com",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "reservaciones",
+            "database": "bilu4c9xkyxamq80ka98",
+            "username": "u2lwcsolxlcwbrx2",
+            "password": "YwQK77UnN3nJeDBSaDOY"
+        }
+    ]
+}
