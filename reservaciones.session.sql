@@ -71,7 +71,11 @@ SELECT * from clientes;
 
 select * from mesas;
 
-insert into reservas(id_cliente, id_mesa, fecha, hora, nPersonas, estado) values(1, 1, '2021-06-01', '12:00:00', 4, true);
+insert into reservas(id_cliente, id_mesa, fecha, hora, nPersonas, estado) values(1, 3, '2021-06-01', '12:00:00', 1, true);
+
+insert into reservas(id_cliente, id_mesa, fecha, hora, nPersonas, estado) values(1, 4, '2024-11-14', '14:00:00', 3, true);
+
+
 
 insert into clientes(nombre, correo, telefono) values("Pedro", "pedrito@gmail.com","24443243");
 
@@ -80,10 +84,18 @@ update mesas set mesas.ocupado = true where mesas.id_mesa = 1;
 select * from reserva;
 
 
+insert into administradores(nombre, contrasena) values("admin", "admin");
+
+SELECT * from administradores;
+
+
 select clientes.nombre, mesas.id_mesa, reservas.fecha, reservas.hora, reservas.nPersonas 
 from reservas
 left join clientes ON clientes.id_cliente = reservas.id_cliente
 left join mesas ON mesas.id_mesa = reservas.id_mesa
-where clientes.correo = "pedrito@gmail.com";
+where clientes.correo = "pedrito@gmail.com"
+order by reservas.fecha desc, reservas.hora desc
+;
 
 
+show databases;

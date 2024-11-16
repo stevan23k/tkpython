@@ -19,39 +19,13 @@
                 "enableSsl": "Disabled"
             },
             "previewLimit": 50,
-            "server": "localhost",
-            "port": 3307,
-            "driver": "MySQL",
-            "name": "reservas",
-            "username": "root",
-            "database": "reservas"
-        },
-        {
-            "mysqlOptions": {
-                "authProtocol": "default",
-                "enableSsl": "Disabled"
-            },
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 3307,
-            "driver": "MySQL",
-            "name": "resrevas",
-            "database": "resrevas",
-            "username": "root"
-        },
-        {
-            "mysqlOptions": {
-                "authProtocol": "default",
-                "enableSsl": "Disabled"
-            },
-            "previewLimit": 50,
             "server": "bilu4c9xkyxamq80ka98-mysql.services.clever-cloud.com",
             "port": 3306,
             "driver": "MySQL",
-            "name": "reservaciones",
             "database": "bilu4c9xkyxamq80ka98",
             "username": "u2lwcsolxlcwbrx2",
-            "password": "YwQK77UnN3nJeDBSaDOY"
+            "password": "YwQK77UnN3nJeDBSaDOY",
+            "name": "reservas"
         }
     ]
 }
